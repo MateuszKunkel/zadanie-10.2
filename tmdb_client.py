@@ -3,7 +3,7 @@ import requests
 
 def get_authorized_dict():
     endpoint = "https://api.themoviedb.org/3/movie/popular"
-    api_token = "x"
+    api_token = "eyJhbGciOiJIUzI1NiJ9.eyJhdWQiOiJjNjY5ZGFkMjFmMjhlOTEwYzA1Mzk4NmM5NTBlNDFhZiIsInN1YiI6IjYzZjY4ZmM1ZDFjYTJhMDA3OWEwODBlYiIsInNjb3BlcyI6WyJhcGlfcmVhZCJdLCJ2ZXJzaW9uIjoxfQ.Y8ZzfV81PknGRBDXKxabQZwQmgTZrM2Vo_6u9gL7fxA"
     headers = {
         "Authorization": f"Bearer {api_token}"
     }
