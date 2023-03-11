@@ -17,8 +17,3 @@ def get_movies(how_many):
 def get_poster_url(poster_api_path, size="w342"):
     base_url = "https://image.tmdb.org/t/p/"
     return f"{base_url}{size}/{poster_api_path}"
-
-
-if __name__ == "__main__":
-    data = get_movies()
-    print(data["results"][0])
